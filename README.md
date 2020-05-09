@@ -18,7 +18,7 @@ and find a way to access forbidden page
 
 ## Micro-CMS v2
 # Micro-CMS v2-flag0
-This version have a login page, when i accessed a edit page, the server will redirect to login page. How to bypass the authen function. i try some SQLi injection payload, so Bingo.
+This version have a login page, when i access a edit page, the server will redirect to login page. How to bypass the authen function. i try some SQLi injection payload, so Bingo.
 If wrong username/passwpord, the reponse is 'Unknown user' message. Howerver, when i typed  admin' or '1'='1 into username input, i got 'Invalid password' but password field is not seem to be vulnerable.
 Basically, i got an account of admin group by SQLmap tool. Login by this accouct i got first flag of this challenge
 # Micro-CMS v2-flag1
