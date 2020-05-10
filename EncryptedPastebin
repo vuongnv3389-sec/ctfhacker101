@@ -1,0 +1,4 @@
+# Encrypted Pastebin
+--Flag1
+The server provides the PateBin service, each post will have a unique post value.
+I tried to set the post value to 1, so the first flag appeared and the vulnerable is that the debug mode of the server isn't not to be disable yet
